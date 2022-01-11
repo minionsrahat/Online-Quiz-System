@@ -1,0 +1,22 @@
+<?php 
+include('mql_connection.php');
+$col_name=$_GET['col_name'];
+$table_name=$_GET['table'];
+$id=$_GET['id'];
+if($table_name=='users')
+{
+    delete_data_by_id($table_name,$col_name,$id,$con);
+    header('location:view_user.php');
+}
+if($table_name=='questions')
+{
+    delete_data_by_id($table_name,$col_name,$id,$con);
+    header('location:view_questions.php');
+}
+if($table_name=='discussion_questions')
+{
+    delete_data_by_id($table_name,$col_name,$id,$con);
+    header('location:view-forum-questions.php');
+}
+
+?>
