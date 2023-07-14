@@ -36,7 +36,7 @@ Please note that this is a brief overview of the Tech Quiz system. If you have a
    - Run the following command to clone the repository:
 
      ```shell
-     git clone https://github.com/your-username/techquiz.git
+     git clone https://github.com/minionsrahat/Online-Quiz-System/tree/master
      ```
 
 2. Import the Database:
